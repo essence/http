@@ -1,0 +1,26 @@
+{
+	"name": "essence/http",
+	"type": "library",
+	"description": "Essence's HTTP client.",
+	"version": "0.1.0",
+	"authors": [{
+		"name": "Félix Girault",
+		"email": "felix.girault@gmail.com",
+		"homepage": "http://www.felix-girault.fr",
+		"role": "Developer"
+	}],
+	"keywords": [
+		"HTTP",
+		"client"
+	],
+	"license": "MIT",
+	"homepage": "http://github.com/essence/http",
+	"autoload": {
+		"psr-4": {
+			"Essence\\": "src/Essence"
+		}
+	},
+	"suggest": {
+		"ext-curl": "*"
+	}
+}
