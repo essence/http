@@ -6,14 +6,14 @@
  */
 namespace Essence\Http;
 
-use Essence\Exception as EssenceException;
+use Exception as NativeException;
 
 
 
 /**
  *	An HTTP related exception.
  */
-class Exception extends EssenceException {
+class Exception extends NativeException {
 
 	/**
 	 *	Error URL.
@@ -70,9 +70,9 @@ class Exception extends EssenceException {
 	 *
 	 *	@param string $url URL.
 	 *	@param int $code HTTP status code.
-	 *	@param Exception $Previous Previous exception.
+	 *	@param NativeException $Previous Previous exception.
 	 */
-	public function __construct($url, $code = 0, Exception $Previous = null) {
+	public function __construct($url, $code = 0, NativeException $Previous = null) {
 		$this->_url = $url;
 
 		parent::__construct(
