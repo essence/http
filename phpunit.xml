@@ -16,7 +16,7 @@
 >
 	<testsuites>
 		<testsuite name="Essence HTTP test suite">
-			<directory>tests/Essence</directory>
+			<directory>tests</directory>
 		</testsuite>
 	</testsuites>
 </phpunit>

@@ -17,7 +17,7 @@
 	"homepage": "http://github.com/essence/http",
 	"autoload": {
 		"psr-4": {
-			"Essence\\": "src/Essence"
+			"Essence\\Http\\": "src"
 		}
 	},
 	"suggest": {
