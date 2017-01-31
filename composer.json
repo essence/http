@@ -21,6 +21,7 @@
 		}
 	},
 	"suggest": {
-		"ext-curl": "*"
+		"ext-curl": "*",
+		"guzzlehttp/guzzle": "~6.2"
 	}
 }
