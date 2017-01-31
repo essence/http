@@ -20,7 +20,11 @@
 			"Essence\\Http\\": "src"
 		}
 	},
+	"require-dev": {
+		"guzzlehttp/guzzle": "~6.2"
+	},
 	"suggest": {
-		"ext-curl": "*"
+		"ext-curl": "*",
+		"guzzlehttp/guzzle": "~6.2"
 	}
 }
